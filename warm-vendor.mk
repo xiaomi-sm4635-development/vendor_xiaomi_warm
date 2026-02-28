@@ -7,6 +7,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/warm/proprietary/odm/etc/camera/cameraopt.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt.json \
+    vendor/xiaomi/warm/proprietary/odm/etc/camera/cameraopt_perf.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_perf.json \
+    vendor/xiaomi/warm/proprietary/odm/etc/camera/cameraopt_reclaim.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_reclaim.json \
     vendor/xiaomi/warm/proprietary/odm/etc/df_default.xml:$(TARGET_COPY_OUT_ODM)/etc/df_default.xml \
     vendor/xiaomi/warm/proprietary/odm/etc/disp0/mdss_dsi_panel_c3f2_35_02_0d_hd_video/cct_pcc.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_panel_c3f2_35_02_0d_hd_video/cct_pcc.txt \
     vendor/xiaomi/warm/proprietary/odm/etc/disp0/mdss_dsi_panel_c3f2_35_02_0d_hd_video/clstc/ClstcLut0.txt:$(TARGET_COPY_OUT_ODM)/etc/disp0/mdss_dsi_panel_c3f2_35_02_0d_hd_video/clstc/ClstcLut0.txt \
@@ -169,11 +171,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warm/proprietary/odm/etc/display/qdcm_calib_data_c3f2_43_02_0a_video_mode_hd_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_c3f2_43_02_0a_video_mode_hd_dsi_panel.json \
     vendor/xiaomi/warm/proprietary/odm/etc/display/qdcm_calib_data_c3f2_46_03_0c_video_mode_hd_dsi_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_c3f2_46_03_0c_video_mode_hd_dsi_panel.json \
     vendor/xiaomi/warm/proprietary/odm/etc/init/vendor.xiaomi.hardware.mlipay-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.hardware.mlipay-service.rc \
+    vendor/xiaomi/warm/proprietary/odm/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.xiaomi.sensor.citsensorservice.aidl.rc \
     vendor/xiaomi/warm/proprietary/odm/etc/mdss_dsi_panel_c3f2_35_02_0d_hd_video_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_panel_c3f2_35_02_0d_hd_video_mi.xml \
     vendor/xiaomi/warm/proprietary/odm/etc/mdss_dsi_panel_c3f2_37_02_0b_hd_video_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_panel_c3f2_37_02_0b_hd_video_mi.xml \
     vendor/xiaomi/warm/proprietary/odm/etc/mdss_dsi_panel_c3f2_43_02_0a_hd_video_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_panel_c3f2_43_02_0a_hd_video_mi.xml \
     vendor/xiaomi/warm/proprietary/odm/etc/mdss_dsi_panel_c3f2_46_03_0c_hd_video_mi.xml:$(TARGET_COPY_OUT_ODM)/etc/mdss_dsi_panel_c3f2_46_03_0c_hd_video_mi.xml \
     vendor/xiaomi/warm/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
+    vendor/xiaomi/warm/proprietary/odm/etc/scene_temp.xml:$(TARGET_COPY_OUT_ODM)/etc/scene_temp.xml \
     vendor/xiaomi/warm/proprietary/odm/firmware/Conf_MultipleTest.ini:$(TARGET_COPY_OUT_ODM)/firmware/Conf_MultipleTest.ini \
     vendor/xiaomi/warm/proprietary/odm/firmware/focaltech_ts_fw_hkc.bin:$(TARGET_COPY_OUT_ODM)/firmware/focaltech_ts_fw_hkc.bin \
     vendor/xiaomi/warm/proprietary/odm/firmware/novatek_ts_fw_boe.bin:$(TARGET_COPY_OUT_ODM)/firmware/novatek_ts_fw_boe.bin \
@@ -302,6 +306,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warm/proprietary/vendor/etc/camera/157_Native.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/157_Native.png \
     vendor/xiaomi/warm/proprietary/vendor/etc/camera/158_BWClassical.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/158_BWClassical.png \
     vendor/xiaomi/warm/proprietary/vendor/etc/camera/159_Flowers.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/159_Flowers.png \
+    vendor/xiaomi/warm/proprietary/vendor/etc/camera/160_Vivid_1.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/160_Vivid_1.png \
+    vendor/xiaomi/warm/proprietary/vendor/etc/camera/161_Monsoon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/161_Monsoon.png \
+    vendor/xiaomi/warm/proprietary/vendor/etc/camera/162_Nature.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/162_Nature.png \
+    vendor/xiaomi/warm/proprietary/vendor/etc/camera/163_Relaxation.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/163_Relaxation.png \
+    vendor/xiaomi/warm/proprietary/vendor/etc/camera/164_Kyoto.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/164_Kyoto.png \
+    vendor/xiaomi/warm/proprietary/vendor/etc/camera/165_Oldalley.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/165_Oldalley.png \
+    vendor/xiaomi/warm/proprietary/vendor/etc/camera/166_Reverse.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/166_Reverse.png \
     vendor/xiaomi/warm/proprietary/vendor/etc/camera/anc_night_algo_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/anc_night_algo_cache \
     vendor/xiaomi/warm/proprietary/vendor/etc/camera/anc_night_binary_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/anc_night_binary_cache \
     vendor/xiaomi/warm/proprietary/vendor/etc/camera/anc_night_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/anc_night_model \
@@ -617,6 +628,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warm/proprietary/vendor/etc/init/hw/init.qcom.factory.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qcom.factory.rc \
     vendor/xiaomi/warm/proprietary/vendor/etc/init/hw/init.qti.kernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.kernel.rc \
     vendor/xiaomi/warm/proprietary/vendor/etc/init/hw/init.qti.ufs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.qti.ufs.rc \
+    vendor/xiaomi/warm/proprietary/vendor/etc/init/hw/init.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.target.rc \
     vendor/xiaomi/warm/proprietary/vendor/etc/init/ims-dataservice-daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims-dataservice-daemon.rc \
     vendor/xiaomi/warm/proprietary/vendor/etc/init/ims_rtp_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ims_rtp_daemon.rc \
     vendor/xiaomi/warm/proprietary/vendor/etc/init/imsdaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/imsdaemon.rc \
@@ -704,8 +716,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warm/proprietary/vendor/etc/perf/testtargetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/testtargetresourceconfigs.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/perf/thermalboost.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/thermalboost.conf \
     vendor/xiaomi/warm/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.km100.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.km100.xml \
+    vendor/xiaomi/warm/proprietary/vendor/etc/permissions/com.xiaomi.sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.xiaomi.sensor.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/permissions/noRil/apq_excluded_telephony_features.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/noRil/apq_excluded_telephony_features.xml \
-    vendor/xiaomi/warm/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/xiaomi/warm/proprietary/vendor/etc/qcril_database/upgrade/config/0006.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0006.0_config.sql \
     vendor/xiaomi/warm/proprietary/vendor/etc/qcril_database/upgrade/config/0007.0_config.sql:$(TARGET_COPY_OUT_VENDOR)/etc/qcril_database/upgrade/config/0007.0_config.sql \
@@ -1647,6 +1659,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fx.tunnel-V1-ndk \
     vendor.xiaomi.hardware.mlipay-V1-ndk_platform \
     vendor.xiaomi.hardware.seccam-V1-ndk \
+    vendor.xiaomi.sensor.citsensorservice-V1-ndk \
     vendor_lib_rfsa_adsp_libSnpeHtpV68Skel_so \
     vendor_lib_rfsa_adsp_libSnpeHtpV69Skel_so \
     vendor_lib_rfsa_adsp_libcalculator_skel_so \
@@ -1692,6 +1705,7 @@ PRODUCT_PACKAGES += \
     libwfduibcsrc \
     libwfduibcsrcinterface \
     vendor.qti.ImsRtpService-V1-ndk \
+    vendor.qti.ImsRtpService-V2-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.seccam@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
@@ -1699,7 +1713,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     vendor.qti.qesdhalaidl-V2-ndk \
-    vendor.xiaomi.hardware.display.mihwcextension-V1-ndk \
+    vendor.xiaomi.hardware.display.mihwcextension-V2-ndk \
     displayfeature.default \
     libMiDispDevManager \
     libadaptivehdr \
@@ -1726,6 +1740,7 @@ PRODUCT_PACKAGES += \
     libtruetone \
     libvideomode \
     libwvkeybox \
+    vendor.xiaomi.hardware.misauth-V1-ndk_platform \
     com.google.android.widevine.nonupdatable \
     CACertService \
     CneApp \
@@ -1735,8 +1750,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentYGoogleHEXAGON_WIDEBAND \
     AtFwd2 \
-    ImsRcsService \
-    QesdkSysService \
     QtiTelephonyService \
     QtiTelephony \
     WfdService \
@@ -1813,6 +1826,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.displayfeature_aidl-service.xml \
     vendor.qti.qesdsys.service.xml \
     manifest_vendor.xiaomi.hardware.mlipay.xml \
+    vendor.xiaomi.sensor.citsensorservice.aidl.xml \
     ATFWD-daemon \
     adpl \
     adsprpcd \
@@ -1847,13 +1861,23 @@ PRODUCT_PACKAGES += \
     ims-dataservice-daemon \
     ims_rtp_daemon \
     imsdaemon \
+    init.class_main \
     init.crda \
+    init.kernel.post_boot-memory \
+    init.kernel.post_boot-pitti \
+    init.kernel.post_boot-pitti_4_0 \
+    init.kernel.post_boot-pitti_4_1 \
+    init.kernel.post_boot-pitti_default_6_2 \
+    init.kernel.post_boot \
     init.mdm \
     init.qcom.class_core \
     init.qcom.coex \
+    init.qcom.early_boot \
     init.qcom.efs.sync \
+    init.qcom.post_boot \
     init.qcom.sdio \
     init.qcom.sensors \
+    init.qcom \
     init.qti.cplicense \
     init.qti.kernel.debug-pitti \
     init.qti.kernel.debug \
@@ -1915,6 +1939,7 @@ PRODUCT_PACKAGES += \
     xtra-daemon \
     xtwifi-client \
     wfdservice64 \
+    vendor.xiaomi.sensor.citsensorservice.aidl \
     mlipayd
 
 PRODUCT_PACKAGES += \
