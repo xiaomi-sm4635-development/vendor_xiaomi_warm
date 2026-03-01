@@ -690,8 +690,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_performance_pitti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_pitti.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_performance_pitti_32go.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_pitti_32go.xml \
-    vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_pitti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_pitti.xml \
-    vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_pitti_32go.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_pitti_32go.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
     vendor/xiaomi/warm/proprietary/vendor/etc/media_pitti/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_pitti/video_system_specs.json \
     vendor/xiaomi/warm/proprietary/vendor/etc/media_pitti_32go/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/media_pitti_32go/video_system_specs.json \
